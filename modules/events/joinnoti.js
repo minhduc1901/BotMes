@@ -63,7 +63,7 @@ module.exports.run = async function({ api, event, Users }) {
         console.log(userName)
       }
       memLength.sort((a, b) => a - b);		
-    (typeof threadData.customJoin == "undefined") ? msg = "🎉𝑪𝒉𝒂̀𝒐 𝑴𝒖̛̀𝒏𝒈 𝑻𝒉𝒂̀𝒏𝒉 𝑽𝒊𝒆̂𝒏 𝑴𝒐̛́𝒊🎉\n━━━━━━━━━━━━\n→ •[🎊]𝐱𝐢𝐧 𝐜𝐡𝐚̀𝐨 {type} {name} 𝐜𝐡𝐚̀𝐨 𝐦𝐮̛̀𝐧𝐠 {type} 𝐭𝐨̛́𝐢 𝐯𝐨̛́𝐢 𝐧𝐡𝐨́𝐦 {threadName}\n→{type} 𝐥𝐚̀ 𝐭𝐡𝐚̀𝐧𝐡 𝐯𝐢𝐞̂𝐧 𝐭𝐡𝐮̛́ {soThanhVien} 𝐜𝐮̉𝐚 𝐧𝐡𝐨́𝐦\n━━━━━━━━━━━━\n 🙈𝒅𝒖̀𝒏𝒈 𝒍𝒆̣̂𝒏𝒉🙈\n•!setname để đổi biệt danh\n•!menu để xem tất cả lệnh bot\n•!ub để xem luật QĐ \n━━━━━━━━━━━━\n→ •[🌹]𝐁𝐚̣𝐧 đ𝐮̛𝐨̛̣𝐜 𝐭𝐡𝐞̂𝐦 𝐯𝐚̀𝐨 𝐧𝐡𝐨́𝐦 𝐛𝐨̛̉𝐢: {author} 💤\n━━━━━━━━━━━━\n•[⏰] [ {time} ]\n": msg = threadData.customJoin;
+    (typeof threadData.customJoin == "undefined") ? msg = "🎉𝑪𝒉𝒂̀𝒐 𝑴𝒖̛̀𝒏𝒈 𝑻𝒉𝒂̀𝒏𝒉 𝑽𝒊𝒆̂𝒏 𝑴𝒐̛́𝒊🎉\n━━━━━━━━━━━━\n→ •[🎊]𝐱𝐢𝐧 𝐜𝐡𝐚̀𝐨 {type} {name} 𝐜𝐡𝐚̀𝐨 𝐦𝐮̛̀𝐧𝐠 {type} 𝐭𝐨̛́𝐢 𝐯𝐨̛́𝐢 𝐧𝐡𝐨́𝐦 {threadName}\n→{type} 𝐥𝐚̀ 𝐭𝐡𝐚̀𝐧𝐡 𝐯𝐢𝐞̂𝐧 𝐭𝐡𝐮̛́ {soThanhVien} 𝐜𝐮̉𝐚 𝐧𝐡𝐨́𝐦\n━━━━━━━━━━━━\n 🙈𝒅𝒖̀𝒏𝒈 𝒍𝒆̣̂𝒏𝒉🙈\n•!setname để đổi biệt danh\n•!menu để xem tất cả lệnh bot \n━━━━━━━━━━━━\n→ •[🌹]𝐁𝐚̣𝐧 đ𝐮̛𝐨̛̣𝐜 𝐭𝐡𝐞̂𝐦 𝐯𝐚̀𝐨 𝐧𝐡𝐨́𝐦 𝐛𝐨̛̉𝐢: {author} 💤\n━━━━━━━━━━━━\n•[⏰] [ {time} ]\n": msg = threadData.customJoin;
       var getData = await Users.getData(event.author)
 var nameAuthor = typeof getData.name == "undefined" ? "Người dùng tự vào" : getData.name
       msg = msg
