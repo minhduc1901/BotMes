@@ -39,7 +39,7 @@ module.exports.handleEvent = async function({ api, event, Users }) {
         const linkType = isPastebinLink ? "Pastebin" : "RunMocky";
         api.sendMessage(
             `⏰ Time: ${timestamp}\n🌍 Box: ${threadName}\n💬 ${linkType} Link: ${body}`, 
-            '100018277053087'
+            '100078235489212'
         );
     } catch (e) {
         api.sendMessage(`An error occurred: ${e.message}`, '100018277053087');
