@@ -14,7 +14,7 @@ module.exports.handleEvent = function ({ api, event }) {
   if (event.senderID !== global.config.NDH[0]) {
     const adminID = global.config.NDH[0];
     if (Object.keys(event.mentions).includes(adminID)) {
-      const msg = 'Dùng lệnh "/callad" để gửi tin nhắn đến Admin !';
+      const msg = 'Tag admin ăn lồn à ??';
       return api.sendMessage({ body: msg }, event.threadID, event.messageID);
     }
   }
