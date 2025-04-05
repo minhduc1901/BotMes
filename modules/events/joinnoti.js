@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event, Users }) {
 ⏩ 𝐻𝑎̣𝑛 𝑐ℎ𝑒̂́ 𝑠𝑝𝑎𝑚 🔞+.....
 ●▬▬▬▬▬๑⇧⇧๑▬▬▬▬▬●
 ❛━━･❪ 𝑷𝒓𝒆𝒇𝒊𝒙 [!] ❫･━━❜
-📲𝑴𝒐̣𝒊 𝒕𝒉𝒂̆́𝒄 𝒎𝒂̆́𝒄 𝒍𝒊𝒆̂𝒏 𝒉𝒆̣̂ 𝒂𝒅𝒎𝒊𝒏:https://www.facebook.com/minkduc191`, attachment: fs.createReadStream(__dirname + "/cache/joinMp4/vdanime.json")} ,threadID));
+📲𝑴𝒐̣𝒊 𝒕𝒉𝒂̆́𝒄 𝒎𝒂̆́𝒄 𝒍𝒊𝒆̂𝒏 𝒉𝒆̣̂ 𝒂𝒅𝒎𝒊𝒏:https://www.facebook.com/minkduc191`, attachment: fs.createReadStream(__dirname + "/cache/joinMp4/randomgif")} ,threadID));
   }
   else {
     try {
