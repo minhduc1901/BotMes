@@ -50,7 +50,7 @@ module.exports.run = async function({ api, event, Users }) {
       const hours = moment.tz("Asia/Ho_Chi_Minh").format("HH");
       const time = moment.tz("Asia/Ho_Chi_Minh").format("DD/MM/YYYY || HH:mm:ss");
       const threadData = global.data.threadData.get(parseInt(threadID)) || {};
-      const path = join(__dirname, "cache", "JoinMp4");
+      const path = join(__dirname, "cache", "JoinMp4","vdanime.json");
       const pathGif = join(path, `${threadID}.mp4`);
 
       var mentions = [], nameArray = [], memLength = [], iduser = [], i = 0;
